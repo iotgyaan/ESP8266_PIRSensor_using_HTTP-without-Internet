@@ -1,6 +1,5 @@
 #include <ESP8266WiFi.h>
 #include "ESPAsyncWebServer.h"
-#include <Wire.h>
 
 const char* ssid = "ESP8266-Access-Point";
 const char* password = "123456789";
@@ -31,10 +30,8 @@ void setup(){
   });
   
   server.begin();
-  
 }
 
-void loop(){   
+void loop() {   
   
-}
-     
+}   
