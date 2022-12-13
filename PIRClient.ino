@@ -62,7 +62,6 @@ void setup() {
   }
   Serial.println("");
   Serial.println("Connected to WiFi");
-
 }
 
 void loop() {    
@@ -87,6 +86,5 @@ void loop() {
       httpGETRequestledOff(serverNameledOff);
       state = LOW;       // update variable state to LOW
     }
-  }       
-           
+  }                 
 }
